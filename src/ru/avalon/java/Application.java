@@ -11,8 +11,11 @@ import javax.swing.JFrame;
 public class Application {
 
     public static void main(String[] args) {
-        JFrame frame = new ColorPalette(); // создание окна ColorPalette
-        frame.setVisible(true); // делаем это окно видимым
+        JFrame colorPalette = new ColorPalette(); // создание окна ColorPalette
+        JFrame calculator = new Calculator(); // создание окна Calculator
+        
+        colorPalette.setVisible(false); // делаем окно видимым
+        calculator.setVisible(true); // делаем окно видимым
     }
 
 }
